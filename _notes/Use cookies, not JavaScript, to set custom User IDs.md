@@ -3,6 +3,7 @@
 title: Use cookies, not JavaScript, to set custom User IDs
 feed: show
 date: 2022-10-21
+categories: ["Measurement"]
 # permalink: /credits
 # format: list
 

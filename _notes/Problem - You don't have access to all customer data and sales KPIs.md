@@ -3,6 +3,7 @@
 title: "Problem - You don't have access to all customer data and sales KPIs"
 feed: show
 date: 2022-10-24
+categories: ["Measurement"]
 # permalink: /credits
 # format: list
 

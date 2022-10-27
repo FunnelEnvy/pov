@@ -3,7 +3,7 @@
 title: "Problem - It takes a month or longer to ship an experiment"
 feed: show
 date: 2022-10-24
-categories: ["Experimentation"]
+categories: ["Experimentation", "Process & Automation"]
 # permalink: /credits
 # format: list
 

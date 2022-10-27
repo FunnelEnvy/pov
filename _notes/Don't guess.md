@@ -3,7 +3,7 @@
 title: "Don't guess"
 feed: show
 date: 2022-10-24
-categories: ["Experimentation"]
+categories: ["Experimentation", "Measurement"]
 # permalink: /credits
 # format: list
 
