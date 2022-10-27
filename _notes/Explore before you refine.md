@@ -3,6 +3,7 @@
 title: Explore before you refine
 feed: show
 date: 2022-10-21
+categories: ["Experimentation"]
 # permalink: /credits
 # format: list
 

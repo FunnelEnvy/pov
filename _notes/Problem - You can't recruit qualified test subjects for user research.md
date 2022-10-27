@@ -3,6 +3,7 @@
 title: "Problem - You can't recruit qualified test subjects for user research"
 feed: show
 date: 2022-10-21
+categories: ["Understanding Your Customer"]
 # permalink: /credits
 # format: list
 

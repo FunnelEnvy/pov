@@ -3,6 +3,7 @@
 title: "Learn what's unique about your customers"
 feed: show
 date: 2022-10-21
+categories: ["Understanding Your Customer"]
 # permalink: /credits
 # format: list
 

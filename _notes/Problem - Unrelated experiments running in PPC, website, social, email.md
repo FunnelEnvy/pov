@@ -3,6 +3,7 @@
 title: "Problem - Unrelated experiments running in PPC, website, social, email"
 feed: show
 date: 2022-10-24
+categories: ["Experimentation"]
 # permalink: /credits
 # format: list
 

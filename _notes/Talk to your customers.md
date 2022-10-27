@@ -3,6 +3,7 @@
 title: Talk to your customers
 feed: show
 date: 2022-10-24
+categories: ["Understanding Your Customer"]
 # permalink: /credits
 # format: list
 

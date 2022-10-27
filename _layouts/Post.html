@@ -87,6 +87,57 @@
             </div>
             {%- endif -%}
 
+            <!--- Category Page Layouts x4 -->
+            {%- if page.permalink == "/understanding-your-customer" -%}
+            <div class="column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+              <h1>Understanding Your Customer</h1>
+              <p>Here are all articles in this category:</p>
+                <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                  <!-- feed with filter-->
+                  <div class="related-wrapper">
+                  {% assign note_items = site.notes | sort: "date" | reverse %}
+                  {% for note_items in note_items %}
+                      {%- if note_items.feed == "show" and note_items.categories contains "Understanding Your Customer" -%}
+                              <div class="notelist-feed">
+                                  <a href="{{ site.baseurl }}{{note_items.url}}">
+                                      <h6>{{ note_items.title }}</h6>
+                                      <p class="excerpt">
+                                          {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncatewords: 16 }}
+                                      </p>
+                                  </a>
+                              </div>
+                      {%- endif -%}
+                  {%- endfor -%}
+                  </div>
+                </div>
+            </div>
+            {%- endif -%}
+
+            {%- if page.permalink == "/experimentation" -%}
+            <div class="column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+              <h1>Experimentation</h1>
+              <p>Here are all articles in this category:</p>
+                <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                  <!-- feed with filter-->
+                  <div class="related-wrapper">
+                  {% assign note_items = site.notes | sort: "date" | reverse %}
+                  {% for note_items in note_items %}
+                      {%- if note_items.feed == "show" and note_items.categories contains "Experimentation" -%}
+                              <div class="notelist-feed">
+                                  <a href="{{ site.baseurl }}{{note_items.url}}">
+                                      <h6>{{ note_items.title }}</h6>
+                                      <p class="excerpt">
+                                          {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncatewords: 16 }}
+                                      </p>
+                                  </a>
+                              </div>
+                      {%- endif -%}
+                  {%- endfor -%}
+                  </div>
+                </div>
+            </div>
+            {%- endif -%}
+
             <!--- Notes Feed Layout-->
             {%- if page.feedformat -%}
             <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">

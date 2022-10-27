@@ -3,6 +3,7 @@
 title: Take big swings early on
 feed: show
 date: 2022-10-21
+categories: ["Experimentation"]
 # permalink: /credits
 # format: list
 

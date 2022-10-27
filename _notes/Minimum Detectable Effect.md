@@ -3,6 +3,7 @@
 title: Minimum Detectable Effect
 feed: show
 date: 2022-10-21
+categories: ["Experimentation"]
 # permalink: /credits
 # format: list
 

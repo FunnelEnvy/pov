@@ -3,6 +3,7 @@
 title: UX-focused experiments will only take you so far
 feed: show
 date: 2022-10-21
+categories: ["Experimentation"]
 # permalink: /credits
 # format: list
 
