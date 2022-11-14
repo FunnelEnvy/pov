@@ -17,3 +17,4 @@ Suggetions:
 
 - [[Focus on systems, not hacks]]
 - [[Decouple experimentation from product development]]
+- [[Run only as many variants as the hypothesis requires]]

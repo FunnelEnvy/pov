@@ -16,7 +16,7 @@ This is extremely common! Here's why it might be happening.
 - [[Cosmetic changes don't matter]]
 
 ## Insufficient traffic / conversions
-- TODO
+- [[Run only as many variants as the hypothesis requires]]
 
 ## Variants are too similar to the control experience
 - [[Take big swings early on]]
